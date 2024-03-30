@@ -13,7 +13,7 @@ function Home(props){
                 setCount(counter+1);
             }
             else{
-                setCount(counter+1);
+                setCount(counter++);
             }
         console.log(counter+ " Item added to the cart");
     }
